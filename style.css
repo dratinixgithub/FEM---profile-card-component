@@ -1,0 +1,134 @@
+:root{
+    /*primary colors*/
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+
+    /*secondary colors*/
+    --Dark-gray: hsl(0, 0%, 59%);
+    --Dark-gray-detail: hsl(0, 0%, 59%, .30);
+
+    /*font*/
+    --font-Kumbh-Sans: 'Kumbh Sans', sans-serif; /* 400 & 700 */
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font-Kumbh-Sans);
+}
+
+.main-container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--Dark-cyan);
+    justify-content: center;
+    align-items: center;
+    background-image:url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 280px top -290px , right -370px top 330px;
+}
+
+
+.main-container h1{
+    font-size: 18px;
+}
+
+.card-container{
+    border-radius: 15px 15px 15px 15px;
+    background-color: whitesmoke;
+    width: 300px;
+    height: 340px;
+}
+
+.card-container__bg{
+    height: 130px;
+    border-radius: 15px 15px 0px 0px;
+    background-image: url(./images/bg-pattern-card.svg);
+}
+
+.card-container__profile img{
+    width: 33%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: 5px solid whitesmoke;
+    margin-top: -50px;
+}
+
+.info__details{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.info__details h1{
+    margin: 3px 80px 3px 80px;
+    display: inline;
+    color: var(--Very-dark-desaturated-blue);
+}
+
+.info__details span{
+    color: var(--Dark-gray);
+    font-weight: 400;
+    padding-left: 3px;
+}
+
+* p{
+    color: var(--Dark-gray);
+    font-weight: 400;
+    padding-left: 122px;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.detail{
+    background-color: var(--Dark-gray-detail);
+    width: 300px;
+    height: 1px;
+    margin: 15px 0px 10px 0px;
+}
+
+.info__stats{
+    padding-top: 7px;
+    width: 300px;
+    display: flex;
+    text-align: left;
+    color: var(--Very-dark-desaturated-blue);
+}
+
+.info__stats p{
+    font-size: 11px;
+}
+
+.stats__first p{
+    margin-left: -92px;
+    padding-right: 5px;
+}
+
+.stats__second p{
+    margin-left: -73px;
+    padding-right: 5px;
+}
+
+.stats__third p{
+    margin-left: -84px;
+    padding-right: 5px;
+}
+
+.info__stats h1{
+    margin-left: 40px;
+}
+
+
+@media only screen and (min-width: 1140px){
+
+    .main-container{
+        background-position: right 670px top -830px , right -560px top 285px;
+    }   
+    
+}
