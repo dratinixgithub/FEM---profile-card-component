@@ -48,7 +48,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Author
 
-- Website - [Kimue](https://dratinixgithub.github.io/FEM---qr-code-component/)
+- Website - [Kimue](https://dratinixgithub.github.io/FEM---profile-card-component)
 - Frontend Mentor - [@dratinixgithub](https://www.frontendmentor.io/profile/dratinixgithub)
 
 
